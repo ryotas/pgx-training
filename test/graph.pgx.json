@@ -1,6 +1,6 @@
 {
   "vertex_uri_list":["graph.pgx.nodes"],
-  "edge_uri_list":["graph_all.pgx.edges"],
+  "edge_uri_list":["graph.pgx.edges"],
   "format":"flat_file",
   "node_id_type":"long",
   "edge_label":true,
