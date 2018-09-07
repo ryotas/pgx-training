@@ -1,0 +1,16 @@
+{ 
+  "format": "pg",
+  "db_engine": "nosql",
+  "hosts": [ "node1.oracle.com:5000" ],
+  "store_name": "kvstore",
+  "name": "connections",
+  "vertex_props": [
+    { "name": "age", "type": "integer"}
+  , { "name": "name", "type": "string"}
+  , { "name": "creator", "type": "string"}
+  ],
+  "load_edge_label": true,
+  "edge_props": [
+    { "name": "label", "type": "string"}
+  ]
+}
