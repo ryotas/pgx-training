@@ -1,0 +1,6 @@
+{
+  "uri": "hero-network.csv"
+, "format": "edge_list"
+, "node_id_type": "string"
+, "separator": ","
+}
