@@ -1,0 +1,17 @@
+# Nodes
+c01 type:customer name:"John" age:10 location:"Boston"
+c02 type:customer name:"Mary" gender:"F"
+c03 type:customer name:"Jill" location:"Boston"
+c04 type:customer name:"Todd" student:"true"
+a01 type:account account_no:xxx-yyy-201 open:"2015-10-04" owner:"John"
+a02 type:account account_no:xxx-yyy-202 open:"2012-09-13" owner:"Mary"
+a03 type:account account_no:xxx-yyy-203 open:"2016-02-04" owner:"Jill"
+a04 type:account account_no:xxx-yyy-204 open:"2018-01-05" owner:"Todd"
+
+# Edges
+a01 -> c01 :owned_by
+a02 -> c02 :owned_by
+a03 -> c03 :owned_by
+a04 -> c04 :owned_by
+c03 -> c04 :parent_of
+
