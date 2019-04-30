@@ -54,6 +54,10 @@
     {
       "name": "date",
       "type": "string"
+    },
+    {
+      "name": "status",
+      "type": "string"
     }
   ],
   "separator": ",",

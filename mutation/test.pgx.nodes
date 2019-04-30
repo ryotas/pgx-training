@@ -1,0 +1,6 @@
+B,type,1,person,,
+B,name,1,Bob,,
+A,type,1,person,,
+P,type,1,number,,
+P,number,1,1234-5678,,
+A,name,1,Alice,,

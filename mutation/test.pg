@@ -1,0 +1,6 @@
+A :person name:Alice
+B :person name:Bob
+P :number number:1234-5678
+
+A P :has_number
+B P :has_number

@@ -1,0 +1,30 @@
+{
+  "vertex_uri_list": [
+    "test.pgx.nodes"
+  ],
+  "edge_uri_list": [
+    "test.pgx.edges"
+  ],
+  "format": "flat_file",
+  "node_id_type": "string",
+  "edge_label": true,
+  "vertex_props": [
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "type",
+      "type": "string"
+    },
+    {
+      "name": "number",
+      "type": "string"
+    }
+  ],
+  "edge_props": [],
+  "separator": ",",
+  "loading": {
+    "load_edge_label": true
+  }
+}

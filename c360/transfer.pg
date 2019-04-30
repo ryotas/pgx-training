@@ -3,7 +3,7 @@ a11 type:account account_no:xxx-zzz-001
 a12 type:account account_no:xxx-zzz-002
 
 # Edges
-a01 -> a02 :transfer amount:200 date:"2018-10-05"
+a01 -> a02 :transfer amount:200 date:"2018-10-05" status:"invalid"
 a11 -> a02 :transfer amount:900 date:"2018-10-06"
 a02 -> a12 :transfer amount:850 date:"2018-10-06"
 a01 -> a03 :transfer amount:500 date:"2018-10-07"
