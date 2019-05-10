@@ -6,7 +6,7 @@
     "all.pgx.edges"
   ],
   "format": "flat_file",
-  "node_id_type": "string",
+  "node_id_type": "integer",
   "edge_label": true,
   "vertex_props": [
     {
